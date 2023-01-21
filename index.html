@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="text/javascript"
+      src="./js/calculator.js"
+      charset="UTF-8"
+    ></script>
+
+    <script></script>
+  </head>
+  <body>
+    <div class="square">
+      <span class="one">Casio</span>
+      <span class="two">Casio</span>
+      <span class="three">Casio</span>
+      <span class="four">Casio</span>
+      <span class="five">Casio</span>
+      <span class="six">Casio</span>
+      <span class="seven">Casio</span>
+    </div>
+    <div class="container">
+      <input class="input" type="text" id="screen" disabled />
+      <div class="buttons">
+      <input class="boton" type="button" value="1" onclick="addScreen('1')" />
+      <input class="boton" type="button" value="2" onclick="addScreen('2')" />
+      <input class="boton" type="button" value="3" onclick="addScreen('3')" />
+      <input class="boton" type="button" value="+" onclick="addScreen('+')" />
+     </div>
+     <div class="buttons">
+      <input class="boton" type="button" value="4" onclick="addScreen('4')" />
+      <input class="boton"  type="button" value="5" onclick="addScreen('5')" />
+      <input class="boton"  type="button" value="6" onclick="addScreen('6')" />
+      <input class="boton"  type="button" value="-" onclick="addScreen('-')" />
+      </div>
+      <div  class="buttons">
+      <input class="boton"  type="button" value="7" onclick="addScreen('7')" />
+      <input class="boton"  type="button" value="8" onclick="addScreen('8')" />
+      <input class="boton"  type="button" value="9" onclick="addScreen('9')" />
+      <input class="boton"  type="button" value="x" onclick="addScreen('x')" />
+      </div>
+      <div class="buttons">
+      <input class="boton"  type="button" value="=" onclick="calculate()" />
+      <input class="boton"  type="button" value="C" onclick="clearScreen()" />
+      <input class="boton"  type="button" value="0" onclick="addScreen('0')" />
+      <input class="boton"  type="button" value="/" onclick="addScreen('/')" />
+      </div>
+    </div>
+  </body>
+</html>
